@@ -1,8 +1,27 @@
 /* Universal styles */
-
+/* 
 @import url(https://db.onlinewebfonts.com/c/c9c60c88cb732119e5a9457f2d9cdc53?family=DINPro-Regular);
 
-@import url(https://db.onlinewebfonts.com/c/05078759185c986d15c17e7ee8deff43?family=DINPro-Bold);
+@import url(https://db.onlinewebfonts.com/c/05078759185c986d15c17e7ee8deff43?family=DINPro-Bold); */
+
+@font-face {
+    font-family: "DINPro-Regular"; 
+    src: url("https://db.onlinewebfonts.com/t/c9c60c88cb732119e5a9457f2d9cdc53.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/c9c60c88cb732119e5a9457f2d9cdc53.eot?#iefix") format("embedded-opentype"), 
+    url("https://db.onlinewebfonts.com/t/c9c60c88cb732119e5a9457f2d9cdc53.woff2") format("woff2"), 
+    url("https://db.onlinewebfonts.com/t/c9c60c88cb732119e5a9457f2d9cdc53.woff") format("woff"), 
+    url("https://db.onlinewebfonts.com/t/c9c60c88cb732119e5a9457f2d9cdc53.ttf") format("truetype"), 
+    url("https://db.onlinewebfonts.com/t/c9c60c88cb732119e5a9457f2d9cdc53.svg#DINPro-Regular") format("svg"); }
+
+@font-face {
+    font-family: "DINPro-Bold"; 
+    src: url("https://db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.eot?#iefix") format("embedded-opentype"), 
+    url("https://db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.woff2") format("woff2"), 
+    url("https://db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.woff") format("woff"), 
+    url("https://db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.ttf") format("truetype"), 
+    url("https://db.onlinewebfonts.com/t/05078759185c986d15c17e7ee8deff43.svg#DINPro-Bold") format("svg"); 
+}
 
 strong {
     position: relative;
