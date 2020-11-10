@@ -1,24 +1,19 @@
 /* Universal styles */
 
-@font-face {
-    font-family: 'DINProRegular';
-    src: local('DINProRegular'), url('../Fonts/DINProRegular.otf') format('opentype');
-}
-@font-face {
-    font-family: 'DINProBold';
-    src: local('DINProBold'), url('../Fonts/DINProBold.otf') format('opentype');
-}
+@import url(//db.onlinewebfonts.com/c/c9c60c88cb732119e5a9457f2d9cdc53?family=DINPro-Regular);
+
+@import url(//db.onlinewebfonts.com/c/05078759185c986d15c17e7ee8deff43?family=DINPro-Bold);
 
 strong {
     position: relative;
-    font-family: 'DINProBold', sans-serif;
+    font-family: 'DINPro-Bold', sans-serif;
     font-weight: normal;
     color: #2c2c2c;
 }
 
 h1, h2, h3, h4, p, li, th, td, input, button {
     position: relative;
-    font-family: 'DINProRegular', sans-serif;
+    font-family: 'DINPro-Regular', sans-serif;
     font-weight: normal;
     color: #2c2c2c;
 }
@@ -363,7 +358,7 @@ footer #footerTopNav li {
     display: inline-block;
     position: relative;
     font-size: 17px;
-    font-family: 'DINProBold';
+    font-family: 'DINPro-Bold';
     margin-right: 36px;
 }
 
