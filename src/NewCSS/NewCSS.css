@@ -1,24 +1,24 @@
 /* Universal styles */
 
 @font-face {
-    font-family: 'DINPro Regular';
-    src: local('DINPro Regular'), url('../Fonts/DINPro\ Regular.otf') format('opentype');
+    font-family: 'DINProRegular';
+    src: local('DINProRegular'), url('../Fonts/DINProRegular.otf') format('opentype');
 }
 @font-face {
-    font-family: 'DINPro Bold';
-    src: local('DINPro Bold'), url('../Fonts/DINPro\ Bold.otf') format('opentype');
+    font-family: 'DINProBold';
+    src: local('DINProBold'), url('../Fonts/DINProBold.otf') format('opentype');
 }
 
 strong {
     position: relative;
-    font-family: 'DINPro Bold', sans-serif;
+    font-family: 'DINProBold', sans-serif;
     font-weight: normal;
     color: #2c2c2c;
 }
 
 h1, h2, h3, h4, p, li, th, td, input, button {
     position: relative;
-    font-family: 'DINPro Regular', sans-serif;
+    font-family: 'DINProRegular', sans-serif;
     font-weight: normal;
     color: #2c2c2c;
 }
@@ -363,7 +363,7 @@ footer #footerTopNav li {
     display: inline-block;
     position: relative;
     font-size: 17px;
-    font-family: 'DINPro Bold';
+    font-family: 'DINProBold';
     margin-right: 36px;
 }
 
