@@ -1,23 +1,61 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect }  from 'react';
+import Text from './Text/Text.json';
+import Header from './Components/Header'
+import Carousel from './Components/Carousel'
+import NewsEvents from './Components/NewsEvents'
+import Channel from './Components/Channel'
+import Artists from './Components/Artists'
+import Footer from './Components/Footer'
 
-function App() {
+const { 
+  text: [{
+    title
+  }]} = Text;
+
+const App = props => {
+
+  const [search, showSearch] = useState(false);
+  const [menu, showMenu] = useState(false);
+  const [carousel, changeCarousel] = useState(0);
+
+  const showSearchField = () => {
+    showSearch(!search);
+  }
+
+  const showMenuDropDown = () => {
+    showMenu(!menu);
+  }
+
+  const changeCarouselImage = whichImage => {
+    changeCarousel(whichImage);
+  }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      let newNum = 0;
+      carousel === 3 ? newNum = 0 : newNum = carousel + 1;
+      changeCarouselImage(newNum);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [carousel]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header 
+        showSearchField={showSearchField}
+        showMenuDropDown={showMenuDropDown}
+        searchState={search}
+        menuState={menu}
+        closeSearch={showSearchField}
+      /> <h1>{title}</h1>
+      <Carousel 
+        changeCarouselImage={changeCarouselImage}
+        whichImage={carousel}
+      /><NewsEvents />
+      <Channel />
+      <Artists />
+      <Footer />
     </div>
   );
 }

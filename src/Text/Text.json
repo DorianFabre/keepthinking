@@ -1,0 +1,117 @@
+{
+    "text": [
+        {
+            "search": "Search",
+            "title": "EC1 GALLERY",
+            "newsTitle": "News & Events",
+            "channelTitle": "Channel",
+            "artistsTitle": "Artists",
+            "viewAll": "View all",
+            "newsletter": "Newsletter",
+            "contact": "Contact",
+            "pressRooms": "Press rooms",
+            "copyright": "© 2017 EC1 GALLERY",
+            "cookie": "Cookie policy",
+            "terms": "Terms of sale",
+            "privacy": "Privacy notice"
+        }
+    ],
+    "carousel": [
+        {
+            "title": "Anselm Kiefer: Walhalla",
+            "subtitle": "Until 12 February 2017, Bermondsey"
+        },
+        {
+            "title": "Ibrahim Mahama: Letters From the Void",
+            "subtitle": "2 October – 17 November 2020"
+        },
+        {
+            "title": "Georg Baselitz: Darkness Goldness",
+            "subtitle": "4 September – 14 November 2020"
+        },
+        {
+            "title": "Virginia Overton: Alone in the Wilderness",
+            "subtitle": "11 September – 14 November 2020"
+        }
+    ],
+    "newsEvents": [
+        {
+            "title": "Exhibition: He Xiangyu monograph released by Distanz",
+            "date": "From March 2016",
+            "content": "He Xiangyu and Liu Wei are among 74 international artists from 33 countries chosen to feature in the Yinchuan Biennale 2016"
+        },
+        {
+            "title": "Exhibition: Runa Islam at SFMOMA, San Francisco",
+            "date": "From March 2016",
+            "content": "‘Verso’, SFMOMA’s solo presentation of Bangladeshi-born British artist Runa Islam, features the US premiere of Cabinet of Prototypes (2009-10)"
+        },
+        {
+            "title": "Preview: White Cube Mason’s Yard",
+            "date": "19 January 2017, 6 to 8pm",
+            "content": "Join us at Mason's Yard, London for the preview of the new Park Seo-Bo exhibition curated by Katharine Kostyál. Curated by Katharine Kostyál"
+        }
+    ],
+    "channel": [
+        {
+            "title": "Anselm Kiefer",
+            "subtitle": "In conversation with Tim Marlow In the Auditorium",
+            "content": "In this ﬁlm Anselm Kiefer discusses his work and his exhibition ‘Walhalla’ at White Cube Bermondsey with Tim Marlow."
+        }
+    ],
+    "artists": [
+        "Franz Ackermann",
+        "Etel Adnan",
+        "Darren Almond",
+        "Ellen Altfest",
+        "Michael Armitage",
+        "Miroslaw Balka",
+        "Georg Baselitz",
+        "Larry Bell",
+        "Jake & Dinos Chapman",
+        "Chuck Close ",
+        "Gregory Crewdson",
+        "Tracey Emin",
+        "Katharina Fritsch",
+        "Theaster Gates",
+        "Gilbert & George",
+        "Antony Gormley",
+        "Andreas Gursky",
+        "David Hammons",
+        "Mona Hatoum",
+        "He Xiangyu",
+        "Damien Hirst",
+        "Robert Irwin",
+        "Runa Islam",
+        "Sergej Jensen",
+        "Anselm Kiefer",
+        "Rachel Kneebone",
+        "Imi Knoebel",
+        "Elad Lassry",
+        "Liza Lou",
+        "Jac Leirner",
+        "Liu Wei",
+        "Christian Marclay",
+        "Josiah McElheny",
+        "Julie Mehretu",
+        "Beatriz Milhazes",
+        "Harland Miller",
+        "Sarah Morris",
+        "Gabriel Orozco",
+        "Damián Ortega",
+        "Virginia Overton",
+        "Eddie Peake",
+        "Magnus Plessen",
+        "Jessica Rankin",
+        "Christian Rosa",
+        "Doris Salcedo",
+        "Raqib Shaw",
+        "Haim Steinbach",
+        "Sam Taylor-Johnson",
+        "Fred Tomaselli",
+        "Jeff Wall",
+        "Cerith Wyn Evans"
+    ],
+    "footer": [
+        "EC1 GALLERY<br />344 Clerkenwell Road<br />London<br />EC1 5RS<br />Tel +44 (0) 207 123 4567"
+    ]
+}
